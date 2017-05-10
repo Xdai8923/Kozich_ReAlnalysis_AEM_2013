@@ -27,7 +27,8 @@ inline_hook <- function(x){
     }
 }
 knitr::knit_hooks$set(inline=inline_hook)
-`​``
+```
+
 ```{r scaling_up, echo=FALSE}
  shared_file_name <- "data/mothur/stability.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.pick.opti_mcc.shared"
  shared_file <- read.table(file=shared_file_name, header=T, stringsAsFactors=F)
