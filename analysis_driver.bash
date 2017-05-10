@@ -25,3 +25,5 @@ mv data/references/silva.seed.pcr.align data/references/silva.v4.align
 code/mothur/mothur code/get_good_seqs.batch
 # Run mock community data through mothur to calculate the sequencing error rates
 code/mothur/mothur code/get_error.batch
+# Run mock community data through mothur to calculate the sequencing error rates
+code/mothur/mothur code/get_shared_otus.batch
